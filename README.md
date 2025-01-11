@@ -10,7 +10,7 @@
 |`Init`|É usado para inicializar um novo repositório Git oculto em um diretório|`git config init`|[Initi](https://git-scm.com/docs/git-init/pt_BR)
 |`Branch`|Branches permitem trabalhar em paralelo em diferentes partes do projeto. A branch padrão é geralmente main ou master|`git branch <nova-funcionalidade>`|[Branch](https://git-scm.com/book/pt-br/v2/Branches-no-Git-Branches-em-poucas-palavras)
 |`Clone`|É usado para copiar um repositório existente para o seu sistema local.|`git clone <URL-do-repositório>`|[Clone](https://git-scm.com/docs/git-clone)
-|`Remote`|Gerencia conexões entre o repositório local e remotos, permitindo adicionar, remover, renomear e listar repositórios||`git remote add <nome> <url>` */* `git remote ls` */* `git remote rm <nome>`|[Remote](https://git-scm.com/docs/git-remote)
+|`Remote`|Gerencia conexões entre o repositório local e remotos, permitindo adicionar, remover, renomear e listar repositórios|`git remote add <nome> <url>` */* `git remote ls` */* `git remote rm <nome>`|[Remote](https://git-scm.com/docs/git-remote)
 |`Add`|Move alterações para a área de staging, preparando-as para commit|`git add <nome do arquivo>`|[Add](https://git-scm.com/docs/git-add/pt_BR)
 |`Commit`|Registra alterações da área de staging no histórico do repositório|`git commit -m "Mensagem do commit"`|[Commit](https://git-scm.com/docs/git-commit)
 |`Push`|Utilizado para enviar commits do repositório local para um repositório remoto|`git push <Nome do repositório remoto> <Nome da branch que você deseja enviar>` |[Push](https://git-scm.com/docs/git-push)
